@@ -21,7 +21,7 @@ Substitua aliancarebelde.local pelo seu domínio AD real. Este comando ajudará 
 
 ## 3 . Instale o pacote sssd para integração com o AD:
 ```bash
-sudo apt-get install sssd
+sudo apt-get install sssd-tools sssd libnss-sss libpam-sss adcli packagekit
 ```
 
 ## 4 . Ingresse no domínio:
